@@ -1,11 +1,165 @@
+/*1-list*/
 body {
   font-family: Roboto;
   color: #212121
 }
+/*point*/
+.site-nav{
+  list-style: none;
+}
+
+.logo {
+  font-family:Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /*identical to box heigt*/
+  letter-spacing: 0.03em;
+  color: #2196f3;
+} 
+.site-nav{
+/*Студия*/
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.site-nav {
+  /*Портфолио*/
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-nav{
+  /*Котакты*/
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+/*Текст*/
+
+/*.title-list {
+ list-style: none; 
+}*/
+
+/*Tekst*/
+.title-list {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #212121; 
+}
+.text{
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  
+  letter-spacing: 0.03em;
+  color: #757575; 
+}
+/*Чем мы занимаемся-Наша команда*/
+.title{
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121; 
+}
+/*Команда*/
+.title-list {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  
+  letter-spacing: 0.03em;
+  color: #212121; 
+}
+/*Текст-2*/
+.text{
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.logo-text {
+  font-family:Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /*identical to box heigt*/
+  letter-spacing: 0.03em;
+  color: #2196f3; 
+}
+/*addresa i tel*/
+.address {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  
+  letter-spacing: 0.03em;
+  color:#ffff
+}
+
+/*2-list*/
+
+.button {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /*identical to box height, or 162%*/
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:#212121
+}
+
+
+
+
+
+
+
+
 .section-title {
   color: #212121
 }
-}
+
 /*header for all pages*/
 .header-links .link {
 color: #212121;
@@ -23,10 +177,7 @@ list-style: none;
 color: #757575;
 font-size: 14px;
 
-}
-.logo {
-  color: #2196f3;
-} 
+ 
 .list {
   list-style: none;
 }
