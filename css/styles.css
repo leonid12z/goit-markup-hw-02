@@ -1,12 +1,31 @@
-/*1-list*/
+/*1-list-rabota*/
 body {
-  font-family: Roboto;
-  color: #212121
+  
 }
 /*point*/
 .site-nav{
   list-style: none;
 }
+
+
+/*Эффективное решение*/
+.section{
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /*or 136%*/
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color:#222222;
+}
+/*Zakaz*/
+.beck{
+background: #2196F3;
+}
+
 
 .logo {
   font-family:Raleway;
@@ -18,8 +37,8 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 } 
-.site-nav{
 /*Студия*/
+.studi{
   font-family:Roboto;
   font-style: normal;
   font-weight: 500;
@@ -29,8 +48,8 @@ body {
   letter-spacing: 0.02em;
   color: #2196f3;
 }
-.site-nav {
-  /*Портфолио*/
+/*Портфолио*/
+.portfol {
   font-family:Roboto;
   font-style: normal;
   font-weight: 500;
@@ -40,8 +59,8 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.site-nav{
-  /*Котакты*/
+/*Котакты*/
+.kontakt{
   font-family:Roboto;
   font-style: normal;
   font-weight: 500;
@@ -50,6 +69,29 @@ body {
   
   letter-spacing: 0.02em;
   color: #212121;
+}
+/*info@devstudio.com*/
+.info{
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+/*tel+380961111111*/
+.tel{
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  
+  letter-spacing: 0.03em;
+  color: #757575; 
 }
 
 /*Текст*/
@@ -101,7 +143,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121; 
 }
-/*Текст-2*/
+/*Текст-2 применил к 1 и 2 листу*/
 .text{
   font-family:Roboto;
   font-style: normal;
@@ -132,10 +174,10 @@ body {
   line-height: 24px;
   
   letter-spacing: 0.03em;
-  color:#ffff
+  color:#222222;
 }
 
-/*2-list*/
+/*2-list-rabota*/
 
 .button {
   font-family:Roboto;
@@ -149,35 +191,68 @@ body {
   color:#212121
 }
 
-
-
-
-
-
-
-
-.section-title {
-  color: #212121
+/*Все*/
+.button-bec {
+ background: #2196F3; 
 }
 
-/*header for all pages*/
-.header-links .link {
-color: #212121;
-font-size: 14px;
-line-height: 16px;
-text-decoration: none;
-list-style: none;
+/*Студия*/
+.studi-text {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  letter-spacing: 0.02em;
+  color:#212121;
 }
 
-.site-nav .link:hover
-.site-nav .link:focus { 
-  color: #2196f3;
+/*Партфолио*/
+.partfolio {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
-.information-links .link {
-color: #757575;
-font-size: 14px;
+/*Котакты*/
+.kontakt {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/*Тексты заголовков 2-й лист*/
+/*Технокряк*//*Постер*//*Ресторан*/
+/*Проект*//*Проект Бох*//*Инспиратион*/
+/*Лиметед*//*ЛАБ*//*Гровинг*/
+.titi{
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  
+  letter-spacing: 0.06em;
+  color: #212121;
+}
 
- 
-.list {
-  list-style: none;
-}
+
+
+
+
+
+
+
+
+
+
+/*Классы мыла и телефон пренес с 1-ст. на 2-ст.*/
