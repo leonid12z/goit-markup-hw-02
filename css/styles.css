@@ -8,8 +8,23 @@ ul {
 a {
   text-decoration: none;
 }
+
+.nav_item:hover,
+.nav_item:focus {
+background: #2196F3;
+color: #ffffff;
+}
+
+/*Все ховер фокус*/
+.button:hover,
+.button:focus {
+  background: #2196F3;;
+  color: #ffff;
+}
+
+/*#2196f3*/
 /*Эффективное решение*/
-.efect {
+.big {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -20,16 +35,22 @@ a {
   text-transform: uppercase;
   color: #ffff;
 }
-/*Zakaz*/
-.beck {
-  background: #2196f3;
-  color: #ffff;
+
+/*Заказ услуг*/
+.button_form {
+ background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
-.web {
+
+.nav_logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
-}
-.biznes {
-  background-color: #2f303a;
 }
 
 .logo {
@@ -41,41 +62,27 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
-/*Студия*/
-.studi {
+
+.hero {
+  background-color: #2f303a;
+}
+
+/*Студия*//*Портфолио*//*Котакты*/
+.nav_item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color:#212121; ;
 }
-/*Портфолио*/
-.portfol {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+.nav_list {
+ 
+}
 
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-/*Котакты*/
-.kontakt {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-
-  letter-spacing: 0.02em;
-  color: #212121;
-}
 /*info@devstudio.com*/
-.info {
+.information {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -87,19 +94,18 @@ a {
 }
 
 /*tel+380961111111*/
-.tel {
+.telefone {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 /*Tekst*/
-.title-list {
+.desc {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -109,6 +115,7 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
+/*Текст описания товаров, и т.д.*/
 .text {
   font-family: "Roboto";
   font-style: normal;
@@ -130,8 +137,8 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
-/*Команда*/
-.title-list {
+/*Команда наша*/
+.subtitle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -164,7 +171,7 @@ a {
   color: #2196f3;
 }
 /*addresa i tel*/
-.address {
+.inform {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -175,7 +182,7 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 /*г.Киев пр-т ЛесиУкр*/
-.address-doc{
+.address{
  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -199,52 +206,11 @@ a {
   color: #212121;
 }
 
-/*Все ховер фокус*/
-.button:hover,
-.button:focus {
-  background: #2196f3;
-  color: #ffff;
-}
-
-/*Студия*/
-.studi-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
-/*Партфолио*/
-.portfolio-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-
-  letter-spacing: 0.02em;
-  color: #2196f3;
-}
-/*Котакты*/
-.kontakt-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-
-  letter-spacing: 0.02em;
-  color: #212121;
-}
 /*Тексты заголовков 2-й лист*/
 /*Технокряк*/ /*Постер*/ /*Ресторан*/
 /*Проект*/ /*Проект Бох*/ /*Инспиратион*/
 /*Лиметед*/ /*ЛАБ*/ /*Гровинг*/
-.doc {
+.subject {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -254,18 +220,17 @@ a {
   letter-spacing: 0.06em;
   color: #212121;
 }
-.web-logo {
+
+.logo_nav {
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
-}
-.logo-text {
   color: #ffffff;
 }
+
 .footer {
   background-color: #2f303a;
 }
