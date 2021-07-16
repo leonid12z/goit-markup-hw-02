@@ -1,258 +1,271 @@
-/*1-list-rabota*/
+/*Домашние задание-1*/
 body {
-  
 }
 /*point*/
-.site-nav{
+ul {
   list-style: none;
 }
-
-
+a {
+  text-decoration: none;
+}
 /*Эффективное решение*/
-.section{
-  font-family:Roboto;
+.efect {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /*or 136%*/
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color:#222222;
+  color: #ffff;
 }
 /*Zakaz*/
-.beck{
-background: #2196F3;
+.beck {
+  background: #2196f3;
+  color: #ffff;
+}
+.web {
+  color: #2196f3;
+}
+.biznes {
+  background-color: #2f303a;
 }
 
-
 .logo {
-  font-family:Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  /*identical to box heigt*/
   letter-spacing: 0.03em;
-  color: #2196f3;
-} 
+  color: #212121;
+}
 /*Студия*/
-.studi{
-  font-family:Roboto;
+.studi {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  
+
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 /*Портфолио*/
 .portfol {
-  font-family:Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  
+
   letter-spacing: 0.02em;
   color: #212121;
 }
 /*Котакты*/
-.kontakt{
-  font-family:Roboto;
+.kontakt {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  
+
   letter-spacing: 0.02em;
   color: #212121;
 }
 /*info@devstudio.com*/
-.info{
-  font-family:Roboto;
+.info {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  
+
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 /*tel+380961111111*/
-.tel{
-  font-family:Roboto;
+.tel {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  
+
   letter-spacing: 0.03em;
-  color: #757575; 
+  color: #757575;
 }
-
-/*Текст*/
-
-/*.title-list {
- list-style: none; 
-}*/
 
 /*Tekst*/
 .title-list {
-  font-family:Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #212121; 
+  color: #212121;
 }
-.text{
-  font-family:Roboto;
+.text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  
+
   letter-spacing: 0.03em;
-  color: #757575; 
+  color: #757575;
 }
 /*Чем мы занимаемся-Наша команда*/
-.title{
-  font-family:Roboto;
+.title {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121; 
+  color: #212121;
 }
 /*Команда*/
 .title-list {
-  font-family:Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  
+
   letter-spacing: 0.03em;
-  color: #212121; 
+  color: #212121;
 }
 /*Текст-2 применил к 1 и 2 листу*/
-.text{
-  font-family:Roboto;
+.text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  
+
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 .logo-text {
-  font-family:Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  /*identical to box heigt*/
+
   letter-spacing: 0.03em;
-  color: #2196f3; 
+  color: #2196f3;
 }
 /*addresa i tel*/
 .address {
-  font-family:Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  
+
   letter-spacing: 0.03em;
-  color:#222222;
+  color: rgba(255, 255, 255, 0.6);
 }
+/*г.Киев пр-т ЛесиУкр*/
+.address-doc{
+ font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/*Домашние задание-2*/
 
-/*2-list-rabota*/
-
+/*Кнопки*/
 .button {
-  font-family:Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  /*identical to box height, or 162%*/
+
   text-align: center;
   letter-spacing: 0.03em;
-  color:#212121
+  color: #212121;
 }
 
-/*Все*/
-.button-bec {
- background: #2196F3; 
+/*Все ховер фокус*/
+.button:hover,
+.button:focus {
+  background: #2196f3;
+  color: #ffff;
 }
 
 /*Студия*/
 .studi-text {
-  font-family:Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  
+
   letter-spacing: 0.02em;
-  color:#212121;
+  color: #212121;
 }
 
 /*Партфолио*/
-.partfolio {
-  font-family:Roboto;
+.portfolio-text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  
+
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color: #2196f3;
 }
 /*Котакты*/
-.kontakt {
-  font-family:Roboto;
+.kontakt-text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  
+
   letter-spacing: 0.02em;
   color: #212121;
 }
 /*Тексты заголовков 2-й лист*/
-/*Технокряк*//*Постер*//*Ресторан*/
-/*Проект*//*Проект Бох*//*Инспиратион*/
-/*Лиметед*//*ЛАБ*//*Гровинг*/
-.titi{
-  font-family:Roboto;
+/*Технокряк*/ /*Постер*/ /*Ресторан*/
+/*Проект*/ /*Проект Бох*/ /*Инспиратион*/
+/*Лиметед*/ /*ЛАБ*/ /*Гровинг*/
+.doc {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  
+
   letter-spacing: 0.06em;
   color: #212121;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*Классы мыла и телефон пренес с 1-ст. на 2-ст.*/
+.web-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-text {
+  color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
+}
