@@ -1,4 +1,4 @@
-/*Домашние задание-1*/
+/*Индекс-портфолио-контакты*/
 body {
 }
 /*point*/
@@ -9,40 +9,24 @@ a {
   text-decoration: none;
 }
 
-.nav_item:hover,
-.nav_item:focus {
-background: #2196F3;
-color: #ffffff;
+/*Шапка студия,портфолио,контакты ховер*/
+.nav_item:hover {
+  color: #2196f3;
+}
+
+.information:hover,
+.telefone:hover {
+  color: #2196f3;
 }
 
 /*Все ховер фокус*/
 .button:hover,
 .button:focus {
-  background: #2196F3;;
+  background: #2196f3;
   color: #ffff;
 }
 
-/*#2196f3*/
-/*Эффективное решение*/
-.big {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffff;
-}
-
-/*Заказ услуг*/
-.button_form {
- background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
-
+/*Логотип*/
 .nav_logo {
   font-family: "Raleway";
   font-style: normal;
@@ -63,11 +47,7 @@ border-radius: 4px;
   color: #212121;
 }
 
-.hero {
-  background-color: #2f303a;
-}
-
-/*Студия*//*Портфолио*//*Котакты*/
+/*Студия*/ /*Портфолио*/ /*Котакты*/
 .nav_item {
   font-family: "Roboto";
   font-style: normal;
@@ -75,10 +55,7 @@ border-radius: 4px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color:#212121; ;
-}
-.nav_list {
- 
+  color: #212121;
 }
 
 /*info@devstudio.com*/
@@ -90,7 +67,7 @@ border-radius: 4px;
   line-height: 16px;
 
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
 }
 
 /*tel+380961111111*/
@@ -102,6 +79,38 @@ border-radius: 4px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/*Эффективное решение*/
+.big {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/*Заказ услуг*/
+.button_form {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.button_form:hover {
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303a;
 }
 
 /*Tekst*/
@@ -159,7 +168,7 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+/*Нижняя область страницы*/
 .logo-text {
   font-family: "Raleway";
   font-style: normal;
@@ -182,8 +191,8 @@ border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
 }
 /*г.Киев пр-т ЛесиУкр*/
-.address{
- font-family: "Roboto";
+.address {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -191,7 +200,8 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-/*Домашние задание-2*/
+
+/*портфолио-html*/
 
 /*Кнопки*/
 .button {
@@ -233,4 +243,8 @@ border-radius: 4px;
 
 .footer {
   background-color: #2f303a;
+}
+
+.subject:hover {
+  color: #2196f3;
 }
