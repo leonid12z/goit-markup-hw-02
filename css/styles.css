@@ -1,6 +1,29 @@
 /*Индекс-портфолио-контакты*/
 body {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
 }
+
+:root { 
+ --brand-color:#2196f3;
+}
+
+
 /*point*/
 ul {
   list-style: none;
@@ -47,7 +70,19 @@ a {
   color: #212121;
 }
 
-/*Студия*/ /*Портфолио*/ /*Котакты*/
+/*Студия Портфолио*/
+.nav_item_list{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+ /*Портфолио*/ /*Котакты*/
 .nav_item {
   font-family: "Roboto";
   font-style: normal;
@@ -85,28 +120,27 @@ a {
 .big {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
   text-align: center;
-
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: #ffffff;
 }
 
 /*Заказ услуг*/
 .button_form {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background: #2196f3;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
   color: #ffffff;
-}
-
-.button_form:hover {
-  color: #2196f3;
 }
 
 .hero {
@@ -116,7 +150,6 @@ a {
 /*Tekst*/
 .desc {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -127,7 +160,6 @@ a {
 /*Текст описания товаров, и т.д.*/
 .text {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -135,7 +167,7 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*Чем мы занимаемся-Наша команда*/
+/*Чем  занимаемся-Наша команда*/
 .title {
   font-family: "Roboto";
   font-style: normal;
@@ -153,21 +185,11 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
+  /*or 1.18%*/
   letter-spacing: 0.03em;
   color: #212121;
 }
-/*Текст-2 применил к 1 и 2 листу*/
-.text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 
-  letter-spacing: 0.03em;
-  color: #757575;
-}
 /*Нижняя область страницы*/
 .logo-text {
   font-family: "Raleway";
@@ -230,6 +252,18 @@ a {
   letter-spacing: 0.06em;
   color: #212121;
 }
+.subtitle-text{
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+color: #757575;
+}
+
 
 .logo_nav {
   font-family: "Raleway";
