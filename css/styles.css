@@ -6,13 +6,15 @@
   --accent-color: #212121;
   --back-color: #757575;
   --background-color: #2f303a;
+  --border-color: #f5f4fa;
+  --border-blu: #188ce8;
 }
 
 body {
-  font-family: "Roboto";
-  font-weight: 500;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -46,8 +48,8 @@ a {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* or 119% */
+  line-height: 1.19;
+
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -56,64 +58,41 @@ a {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* or 119% */
+  line-height: 1.19;
+
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
 /*Студия Портфолио*/
 .nav_item_list {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  /* or 114% */
-  letter-spacing: 0.02em;
-
   color: var(--primary-text-color);
 }
 
 /*Портфолио*/ /*Котакты*/
 .nav_item {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  /* or 114% */
-  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
 /*info@devstudio.com*/
 .information {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  /* or 114% */
-  letter-spacing: 0.02em;
   color: var(--back-color);
 }
 
 /*tel+380961111111*/
 .telefone {
-  font-family: "Roboto";
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 1.71;
+
   letter-spacing: 0.03em;
   color: var(--back-color);
 }
 
 /*Эффективное решение*/
 .hero-big {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
+  line-height: 1.36;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -122,15 +101,24 @@ a {
 }
 
 /*Заказ услуг*/
-.hero_button_form {
-  font-family: "Roboto";
+.hero-button-form {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  /*or 187% */
+  line-height: 1.87;
+
   letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
   background-color: var(--primary-text-color);
   color: var(--brand-color);
+
+  cursor: pointer;
+}
+
+.hero-button-form:hover {
+  background: var(--border-blu);
 }
 
 .hero {
@@ -139,54 +127,50 @@ a {
 
 /*Tekst*/
 .section-desc {
-  font-family: "Roboto";
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  /* or 114% */
+
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 /*Текст описания товаров, и т.д.*/
 .section-text {
-  font-family: "Roboto";
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+
+  line-height: 1.71;
+
   letter-spacing: 0.03em;
   color: var(--back-color);
 }
 /*Чем  занимаемся-Наша команда*/
 .section-title {
-  font-family: "Roboto";
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  /* or 116% */
+  line-height: 1.16;
+
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-/*Команда наша*/
+/* наша Команда*/
 .section-subtitle {
-  font-family: "Roboto";
-  font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /*or 118%*/
+  line-height: 1.18;
+
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
+.section-border {
+  background: var(--brand-color);
+}
+
 /*text*/
 .text {
-  font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-  /* or 118% */
+  line-height: 1.18;
+
   letter-spacing: 0.03em;
   color: var(--back-color);
 }
@@ -196,29 +180,27 @@ a {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* or 119% */
+  line-height: 1.19;
+
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /*addresa i tel*/
 .inform {
-  font-family: "Roboto";
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+
+  line-height: 1.71;
+
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /*г.Киев пр-т ЛесиУкр*/
 .address {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+
+  line-height: 1.71;
+
   letter-spacing: 0.03em;
   color: var(--brand-color);
 }
@@ -227,14 +209,19 @@ a {
 
 /*Кнопки*/
 .button {
-  font-family: "Roboto";
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
+  line-height: 1.62;
+
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+
+  border: var(--border-color);
+  border-radius: 4px;
+
+  cursor: pointer;
 }
 
 /*Тексты заголовков 2-й лист*/
@@ -242,20 +229,17 @@ a {
 /*Проект*/ /*Проект Бох*/ /*Инспиратион*/
 /*Лиметед*/ /*ЛАБ*/ /*Гровинг*/
 .subject {
-  font-family: "Roboto";
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
-  /*or 200% */
+  line-height: 2;
+
   letter-spacing: 0.06em;
   color: var(--accent-color);
 }
 .subtitle-text {
-  font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-  /* or 187% */
+  line-height: 1.87;
 
   letter-spacing: 0.03em;
   color: var(--back-color);
@@ -265,8 +249,8 @@ a {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* or 119% */
+  line-height: 1.19;
+
   letter-spacing: 0.03em;
   color: var(--brand-color);
 }
